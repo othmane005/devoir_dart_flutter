@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // ===== Title =====
+               
                 const SizedBox(height: 10),
                 const Center(
                   child: Text(
@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
 
                 const SizedBox(height: 30),
 
-                // ===== Welcome =====
+               
                 const Text(
                   "Welcome Back!",
                   style: TextStyle(
@@ -58,7 +58,6 @@ class HomePage extends StatelessWidget {
 
                 const SizedBox(height: 25),
 
-                // ===== Tasks Card =====
                 Container(
                   padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
@@ -121,7 +120,6 @@ class HomePage extends StatelessWidget {
 
                 const SizedBox(height: 18),
 
-                // ===== Progress Card =====
                 Container(
                   padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
@@ -167,7 +165,6 @@ class HomePage extends StatelessWidget {
 
                 const Spacer(),
 
-                // ===== Button =====
                 SizedBox(
                   width: double.infinity,
                   child: ElevatedButton(
